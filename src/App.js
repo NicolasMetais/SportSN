@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import $ from 'jquery';
-import './Nav.js'
+import Navigateur from './Nav.js';
+import EnormousLogo from './logo.js'
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Nav></Nav>
-      </div>
+      <header>
+        <EnormousLogo></EnormousLogo>
+        <Navigateur></Navigateur>
+      </header>
     );
   }
 }

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './NavLeft';
-import './NavRigth';
+import NavLeft from './NavLeft';
+import NavRigth from './NavRigth';
 
-class Nav extends Component {
+class Navigateur extends Component {
     render(){
         return (
             <div>  
@@ -13,4 +13,4 @@ class Nav extends Component {
     }
 }
 
-export default Nav;
+export default Navigateur;

@@ -4,6 +4,8 @@ class NavRigth extends Component {
     render(){
         return (
             <div>
+                <input type="image" src="profile.png"></input>
+                <a>Search</a>
             </div>
         )
     }
